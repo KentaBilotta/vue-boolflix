@@ -58,13 +58,13 @@
           >
         </div>
       <div class="info position-absolute top-0 start-0 p-1 overview">
-          <div>
+        <div>
           <span class="fw-bold">Titolo:</span>
-          <span class="mx-1">{{ objSeries.title }}</span>
+          <span class="mx-1">{{ objSeries.name }}</span>
         </div>
         <div>
           <span class="fw-bold">Titolo Originale:</span>
-          <span class="mx-1">{{ objSeries.original_title }}</span>
+          <span class="mx-1">{{ objSeries.original_name }}</span>
         </div>
         <div>
           <span class="fw-bold">Lingua:</span>
