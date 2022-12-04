@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="bg-dark p-2 d-flex justify-content-around align-items-center">
+    <header class="bg-dark p-2 d-flex justify-content-between align-items-center">
       <h1 class="text-uppercase text-danger fw-bold">boolflix</h1>
       <form @submit.prevent="$emit('queryChange', queryString)">
         <label for="search">

@@ -1,7 +1,12 @@
 <template>
   <div>
-    <HeaderPage @queryChange="search"/>
-    <MainPage :arrPropsMovies="arrMovies" :arrPropsSeries="arrTVSeries"/>
+    <div class="container-xxl">
+      <HeaderPage @queryChange="search"/>
+      <MainPage
+        :arrPropsMovies="arrMovies"
+        :arrPropsSeries="arrTVSeries"
+      />
+    </div>
   </div>
 </template>
 
